@@ -17,7 +17,7 @@ class Point():
 
     def __len__(self):
         return 2
-
+    """
     def __eq__(self, other):
         if isinstance(other, Point):
             return self.x==other.x and self.y==other.y
@@ -37,6 +37,7 @@ class Point():
 
     def __le__(self, other):
         raise NotImplementedError
+    """
 
     def __str__(self):
         if type(self.x) is int and type(self.y) is int:
