@@ -23,6 +23,7 @@ def centroid(pgon):
         # huh?
         ai = pgon[i].x * pgon[i+1].y - pgon[i+1].x * pgon[i].y
         A += ai
+
         xmean += (pgon[i+1].x + pgon[i].x) * ai
         ymean += (pgon[i+1].y + pgon[i].y) * ai
     A = A/2.0
